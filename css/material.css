@@ -818,6 +818,14 @@ a:hover {
 /* ==================================================================== */
 /* == Helpers ========================================================= */
 /* ==================================================================== */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -1129,9 +1137,10 @@ a:hover {
 .navbar .navbar-brand {
   margin: 0;
   padding-top: 16px;
-  float: left;
   text-transform: uppercase;
   font-size: 16px;
+  font-weight: 600;
+  float: left;
 }
 
 .navbar .navbar-brand a {
@@ -1155,7 +1164,7 @@ a:hover {
 
 .navbar .navbar-nav ul li a {
   padding: 12px;
-  font-weight: 600;
+  font-weight: 300;
   display: inline-block;
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
@@ -1172,6 +1181,7 @@ a:hover {
 /* == Footer ========================================================== */
 /* ==================================================================== */
 .footer {
-  padding: 18px 0;
+  padding: 8px 0;
   color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
 }

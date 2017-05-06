@@ -35,3 +35,13 @@ body {
 .articles h3 {
     margin: 0;
 }
+
+.footer a {
+    margin-top: 16px;
+    display: inline-block;
+    color: rgba(255,255,255,.9);
+}
+
+.footer .fa-arrow-up {
+    margin-right: 8px;
+}
