@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    padding: 48px 0;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+.content > .container {
+    max-width: 900px;
+}
+
+.content article p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.content article header {
+    margin: 40px 0;
+}
+
+.comments {
+    margin-top: 44px;
+}
+
+.articles {
+    padding: 48px 0;
+    background: #eee;
+}
+
+.articles h3 {
+    margin: 0;
+}

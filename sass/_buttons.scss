@@ -1,0 +1,45 @@
+/* ==================================================================== */
+/* == Buttons ========================================================= */
+/* ==================================================================== */
+
+.btn {
+
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #eee;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px,
+                rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1.25;
+    padding: .85rem 2.13rem;
+    border-radius: 2px;
+    margin-top: 8px;
+    transition: .2s ease-out;
+
+    &:hover {
+        
+        color: #fff;
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18),
+                    0 4px 15px 0 rgba(0, 0, 0, .15);
+    }
+
+    @each $color-name, $color-hex in $colors {
+        
+        &.btn-#{$color-name} {
+
+            background-color: $color-hex;
+            
+            &:hover {
+                background-color: darken($color-hex, 10%);
+            }
+
+            &:focus {
+                background-color: darken($color-hex, 15%);
+            }
+        }
+    }
+}

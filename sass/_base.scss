@@ -1,0 +1,47 @@
+/* ==================================================================== */
+/* == Base ============================================================ */
+/* ==================================================================== */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row [class*="col-"] {
+    padding: 0 15px;
+}
+
+@each $prop, $size in $media-breakpoints {
+    @include media-query($size) {
+        @for $i from 1 through 12 {
+            .col-#{$prop}-#{$i} {
+                width: $col-width * $i;
+            }
+        }
+    }
+}

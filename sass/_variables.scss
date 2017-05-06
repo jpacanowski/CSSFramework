@@ -1,0 +1,42 @@
+/* ==================================================================== */
+/* == Variables ======================================================= */
+/* ==================================================================== */
+
+$col-width: 8.33333333%;
+
+/* Breakpoints */
+$media-breakpoint-xs: 0;
+$media-breakpoint-sm: 576px;
+$media-breakpoint-md: 768px;
+$media-breakpoint-lg: 992px;
+$media-breakpoint-xl: 1200px;
+
+$media-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$colors: (
+    "blue": #2296F3,
+    "light-blue": #00A9F4,
+    "cyan": #00BCD4,
+    "teal": #009688,
+    "green": #4CAF50,
+    "light-green": #CDDC39,
+    "lime": #CDDC39,
+    "yellow": #FFEB3B,
+    "amber": #FFC107,
+    "orange": #FF9800,
+    "brown": #795548,
+    "blue-grey": #607D8B,
+    "grey": #9E9E9E,
+    "deep-orange": #FF5722,
+    "red": #F44336,
+    "pink": #E91E63,
+    "purple": #9C27B0,
+    "deep-purple": #9C27B0,
+    "indigo": #3F51B5,
+);
