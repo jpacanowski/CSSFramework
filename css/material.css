@@ -1107,28 +1107,20 @@ a:hover {
 /* ==================================================================== */
 /* == Forms =========================================================== */
 /* ==================================================================== */
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="password"],
-.form input[type="url"],
-.form textarea {
+.input-field {
   border: none;
   resize: none;
   display: block;
   background-color: transparent;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #9E9E9E;
   padding: 0.5rem 0;
-  margin-bottom: 16px;
+  margin-bottom: 1.0rem;
   font-size: 1rem;
   width: 100%;
 }
 
-.form input[type="text"]:focus,
-.form input[type="email"]:focus,
-.form input[type="password"]:focus,
-.form input[type="url"]:focus,
-.form textarea:focus {
-  border-bottom: 2px solid #129FEA;
+.input-field:focus {
+  border-bottom: 2px solid #2296F3;
   outline: none;
 }
 
