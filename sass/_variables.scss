@@ -12,31 +12,54 @@ $media-breakpoint-lg: 992px;
 $media-breakpoint-xl: 1200px;
 
 $media-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px
+    xs: $media-breakpoint-xs,
+    sm: $media-breakpoint-sm,
+    md: $media-breakpoint-md,
+    lg: $media-breakpoint-lg,
+    xl: $media-breakpoint-xl
 );
 
+$blue:          #2296F3 !default;
+$light-blue:    #00A9F4 !default;
+$cyan:          #00BCD4 !default;
+$teal:          #009688 !default;
+$green:         #4CAF50 !default;
+$light-green:   #CDDC39 !default;
+$lime:          #CDDC39 !default;
+$yellow:        #FFEB3B !default;
+$amber:         #FFC107 !default;
+$orange:        #FF9800 !default;
+$brown:         #795548 !default;
+$blue-grey:     #607D8B !default;
+$grey:          #9E9E9E !default;
+$deep-orange:   #FF5722 !default;
+$red:           #F44336 !default;
+$pink:          #E91E63 !default;
+$purple:        #9C27B0 !default;
+$deep-purple:   #9C27B0 !default;
+$indigo:        #3F51B5 !default;
+
+$white:        #FFFFFF !default;
+$black:        #000000 !default;
+
 $colors: (
-    "blue": #2296F3,
-    "light-blue": #00A9F4,
-    "cyan": #00BCD4,
-    "teal": #009688,
-    "green": #4CAF50,
-    "light-green": #CDDC39,
-    "lime": #CDDC39,
-    "yellow": #FFEB3B,
-    "amber": #FFC107,
-    "orange": #FF9800,
-    "brown": #795548,
-    "blue-grey": #607D8B,
-    "grey": #9E9E9E,
-    "deep-orange": #FF5722,
-    "red": #F44336,
-    "pink": #E91E63,
-    "purple": #9C27B0,
-    "deep-purple": #9C27B0,
-    "indigo": #3F51B5,
+    "blue":         $blue,
+    "light-blue":   $light-blue,
+    "cyan":         $cyan,
+    "teal":         $teal,
+    "green":        $green,
+    "light-green":  $light-green,
+    "lime":         $lime,
+    "yellow":       $yellow,
+    "amber":        $amber,
+    "orange":       $orange,
+    "brown":        $brown,
+    "blue-grey":    $blue-grey,
+    "grey":         $grey,
+    "deep-orange":  $deep-orange,
+    "red":          $red,
+    "pink":         $pink,
+    "purple":       $purple,
+    "deep-purple":  $deep-purple,
+    "indigo":       $indigo,
 );
